@@ -16,5 +16,10 @@
     "files": [
       "app/Helpers/helpers.php"
     ]
+  },
+  "extra": {
+    "exclude-from-classmap": [
+        "/vendor/google/apiclient/src/aliases.php"
+    ]
   }
 }
