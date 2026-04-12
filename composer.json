@@ -1,25 +1,23 @@
 {
-  "name": "naut/naut-shop",
-  "description": "Naut Shop - PHP MVC E-commerce Assignment",
-  "type": "project",
-  "require": {
-    "php": ">=8.0",
-    "firebase/php-jwt": "7.0.3",
-    "phpmailer/phpmailer": "^7.0",
-    "google/apiclient": "^2.19"
-  },
-  "autoload": {
-    "psr-4": {
-      "App\\": "app/",
-      "Core\\": "core/"
+    "name": "naut/naut-shop",
+    "description": "Naut Shop - PHP MVC E-commerce Assignment",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "firebase/php-jwt": "7.0.3",
+        "phpmailer/phpmailer": "^7.0",
+        "google/apiclient": "^2.19"
     },
-    "files": [
-      "app/Helpers/helpers.php"
-    ]
-  },
-  "extra": {
-    "exclude-from-classmap": [
-        "/vendor/google/apiclient/src/aliases.php"
-    ]
-  }
+    "autoload": {
+        "exclude-from-classmap": [
+            "/vendor/google/apiclient/src/aliases.php"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        },
+        "files": [
+            "app/Helpers/helpers.php"
+        ]
+    }
 }
