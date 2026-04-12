@@ -1,0 +1,10 @@
+Options -Indexes
+RewriteEngine On
+
+# Phục vụ static assets từ public/assets/ (asset() helper vẫn trả về /assets/...)
+RewriteRule ^assets/(.*)$ public/assets/$1 [L]
+
+# Chuyển tất cả request còn lại qua index.php (front controller)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
