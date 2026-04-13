@@ -10,6 +10,7 @@ declare(strict_types=1);
  */
 
 define('BASE_PATH', dirname(__DIR__));
+require_once BASE_PATH . '/vendor/autoload.php';
 
 // Custom PSR-4 autoloader (không dùng vendor/autoload.php nữa)
 spl_autoload_register(function (string $class): void {

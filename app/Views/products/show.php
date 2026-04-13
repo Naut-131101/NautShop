@@ -9,11 +9,11 @@
         <div class="product-gallery-panel">
             <div class="product-gallery-main">
                 <span class="product-gallery-label"><?= e(t('product.featured_view')) ?></span>
-                <strong><img
+                <img
                         src="<?= e((string) ($product['image_url'] ?? asset('images/image-placeholder.png'))) ?>"
                         alt="<?= e((string) ($product['image_alt'] ?? $product['name'] ?? 'Product image')) ?>"
                         class="product-detail-main-img"
-                        loading="eager"></strong>
+                        loading="eager">
                 <small><?= e((string) $product['name']) ?></small>
             </div>
 

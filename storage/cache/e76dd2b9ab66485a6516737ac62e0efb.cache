@@ -1,5 +1,5 @@
 {
-    "expires_at": 1775897735,
+    "expires_at": 1776073746,
     "data": {
         "data": [
             {
@@ -15,7 +15,7 @@
                 "quantity": 1,
                 "created_at": "2026-04-11 15:53:09",
                 "updated_at": "2026-04-11 15:53:09",
-                "image_url": "http:\/\/localhost\/naut-shop\/public\/assets\/images\/image-placeholder.png",
+                "image_url": "http:\/\/localhost\/naut-shop\/assets\/images\/image-placeholder.png",
                 "image_alt": "Teddy"
             },
             {
@@ -31,7 +31,7 @@
                 "quantity": 50,
                 "created_at": "2026-04-09 22:12:30",
                 "updated_at": "2026-04-11 10:46:02",
-                "image_url": "http:\/\/localhost\/naut-shop\/public\/assets\/images\/products\/prod_69d9c3fa5b08f7.05351618.png",
+                "image_url": "http:\/\/localhost\/naut-shop\/assets\/images\/products\/prod_69d9c3fa5b08f7.05351618.png",
                 "image_alt": "Basic baseball cap"
             },
             {
@@ -47,7 +47,7 @@
                 "quantity": 30,
                 "created_at": "2026-04-09 22:12:30",
                 "updated_at": "2026-04-11 10:46:29",
-                "image_url": "http:\/\/localhost\/naut-shop\/public\/assets\/images\/products\/prod_69d9c41534bb57.17983295.png",
+                "image_url": "http:\/\/localhost\/naut-shop\/assets\/images\/products\/prod_69d9c41534bb57.17983295.png",
                 "image_alt": "Shockproof laptop backpack"
             },
             {
@@ -63,7 +63,7 @@
                 "quantity": 10,
                 "created_at": "2026-04-09 22:12:30",
                 "updated_at": "2026-04-11 10:46:41",
-                "image_url": "http:\/\/localhost\/naut-shop\/public\/assets\/images\/products\/prod_69d9c421a36772.39086313.png",
+                "image_url": "http:\/\/localhost\/naut-shop\/assets\/images\/products\/prod_69d9c421a36772.39086313.png",
                 "image_alt": "Cross strap sandals"
             },
             {
@@ -79,7 +79,7 @@
                 "quantity": 25,
                 "created_at": "2026-04-09 22:12:30",
                 "updated_at": "2026-04-11 10:48:00",
-                "image_url": "http:\/\/localhost\/naut-shop\/public\/assets\/images\/products\/prod_69d9c470bc0f39.10324351.png",
+                "image_url": "http:\/\/localhost\/naut-shop\/assets\/images\/products\/prod_69d9c470bc0f39.10324351.png",
                 "image_alt": "Black pique polo shirt"
             },
             {
@@ -95,7 +95,7 @@
                 "quantity": 15,
                 "created_at": "2026-04-09 22:12:30",
                 "updated_at": "2026-04-11 10:48:12",
-                "image_url": "http:\/\/localhost\/naut-shop\/public\/assets\/images\/products\/prod_69d9c47c217057.22034423.png",
+                "image_url": "http:\/\/localhost\/naut-shop\/assets\/images\/products\/prod_69d9c47c217057.22034423.png",
                 "image_alt": "Basic khaki shorts"
             },
             {
@@ -111,7 +111,7 @@
                 "quantity": 35,
                 "created_at": "2026-04-09 22:12:30",
                 "updated_at": "2026-04-11 10:48:44",
-                "image_url": "http:\/\/localhost\/naut-shop\/public\/assets\/images\/products\/prod_69d9c49cc9a088.44325494.png",
+                "image_url": "http:\/\/localhost\/naut-shop\/assets\/images\/products\/prod_69d9c49cc9a088.44325494.png",
                 "image_alt": "Basic sweatshirt hoodie"
             },
             {
@@ -127,7 +127,7 @@
                 "quantity": 5,
                 "created_at": "2026-04-09 22:12:30",
                 "updated_at": "2026-04-11 10:48:23",
-                "image_url": "http:\/\/localhost\/naut-shop\/public\/assets\/images\/products\/prod_69d9c487e0dbd5.74199983.png",
+                "image_url": "http:\/\/localhost\/naut-shop\/assets\/images\/products\/prod_69d9c487e0dbd5.74199983.png",
                 "image_alt": "Floral midi dress"
             },
             {
@@ -143,7 +143,7 @@
                 "quantity": 10,
                 "created_at": "2026-04-09 22:12:30",
                 "updated_at": "2026-04-11 10:47:50",
-                "image_url": "http:\/\/localhost\/naut-shop\/public\/assets\/images\/products\/prod_69d9c466ee33a7.99808778.png",
+                "image_url": "http:\/\/localhost\/naut-shop\/assets\/images\/products\/prod_69d9c466ee33a7.99808778.png",
                 "image_alt": "Canvas crossbody bag"
             },
             {
@@ -159,7 +159,7 @@
                 "quantity": 10,
                 "created_at": "2026-04-09 22:12:30",
                 "updated_at": "2026-04-11 10:47:27",
-                "image_url": "http:\/\/localhost\/naut-shop\/public\/assets\/images\/products\/prod_69d9c44f6cd645.74868319.png",
+                "image_url": "http:\/\/localhost\/naut-shop\/assets\/images\/products\/prod_69d9c44f6cd645.74868319.png",
                 "image_alt": "Minimalist white sneakers"
             },
             {
@@ -175,7 +175,7 @@
                 "quantity": 20,
                 "created_at": "2026-04-09 22:12:30",
                 "updated_at": "2026-04-11 10:47:07",
-                "image_url": "http:\/\/localhost\/naut-shop\/public\/assets\/images\/products\/prod_69d9c43bbe3f67.12863689.png",
+                "image_url": "http:\/\/localhost\/naut-shop\/assets\/images\/products\/prod_69d9c43bbe3f67.12863689.png",
                 "image_alt": "Light blue straight jeans"
             },
             {
@@ -191,7 +191,7 @@
                 "quantity": 10,
                 "created_at": "2026-04-09 22:12:30",
                 "updated_at": "2026-04-11 10:46:53",
-                "image_url": "http:\/\/localhost\/naut-shop\/public\/assets\/images\/products\/prod_69d9c42de004a6.03421899.png",
+                "image_url": "http:\/\/localhost\/naut-shop\/assets\/images\/products\/prod_69d9c42de004a6.03421899.png",
                 "image_alt": "White Oxford shirt"
             }
         ],

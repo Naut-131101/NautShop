@@ -4,31 +4,8 @@ declare(strict_types=1);
 
 define('BASE_PATH', __DIR__);
 
-/**
- * Custom PSR-4 autoloader – thay thế vendor/autoload.php của Composer.
- * Hỗ trợ namespace App\ (app/) và Core\ (core/).
- */
-spl_autoload_register(function (string $class): void {
-    $map = [
-        'App\\'  => BASE_PATH . '/app/',
-        'Core\\' => BASE_PATH . '/core/',
-    ];
-
-    foreach ($map as $prefix => $dir) {
-        $len = strlen($prefix);
-
-        if (strncmp($class, $prefix, $len) !== 0) {
-            continue;
-        }
-
-        $file = $dir . str_replace('\\', '/', substr($class, $len)) . '.php';
-
-        if (file_exists($file)) {
-            require $file;
-            return;
-        }
-    }
-});
+// Dùng Composer autoloader – đã map sẵn App\, Core\, Google\, v.v.
+require BASE_PATH . '/vendor/autoload.php';
 
 // Load helper functions (không dùng autoloader)
 require BASE_PATH . '/app/Helpers/helpers.php';

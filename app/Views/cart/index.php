@@ -22,7 +22,13 @@
                     <?php foreach ($cartItems as $item): ?>
                         <article class="cart-item-card">
                             <div class="cart-item-media">
-                                <span><?= e((string) $item['image']) ?></span>
+                                <?php
+                                    $imageName = trim((string) ($item['image'] ?? ''));
+                                    $imageSrc  = ($imageName !== '' && is_file(BASE_PATH . '/public/assets/images/products/' . $imageName))
+                                        ? asset('images/products/' . $imageName)
+                                        : asset('images/image-placeholder.png');
+                                ?>
+                                <img src="<?= e($imageSrc) ?>" alt="<?= e((string) $item['name']) ?>">
                             </div>
 
                             <div class="cart-item-content">
