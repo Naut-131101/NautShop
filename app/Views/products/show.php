@@ -112,7 +112,12 @@
                 <?php foreach ($relatedProducts as $related): ?>
                     <article class="product-modern-card">
                         <a href="<?= e(url('/products/show?id=' . (int) $related['id'])) ?>" class="product-modern-image product-image-link">
-                            <span><?= e((string) ($related['image'] ?? 'no-image')) ?></span>
+                            <img
+                                src="<?= e((string) ($related['image_url'] ?? asset('images/image-placeholder.png'))) ?>"
+                                alt="<?= e((string) ($related['name'] ?? 'Product image')) ?>"
+                                class="product-modern-img"
+                                style="object-fit: contain;"
+                                loading="lazy">
                         </a>
                         <div class="product-modern-body">
                             <div class="product-modern-meta">
